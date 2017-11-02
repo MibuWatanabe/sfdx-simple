@@ -1,4 +1,19 @@
 <apex:page standardController="Contact" extensions="DemoController">
+  
+  <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyDgohs3Wb8jQEOeB4Gv-TTBtzuFaD8aLGI",
+      authDomain: "push-notification-2017-47b52.firebaseapp.com",
+      databaseURL: "https://push-notification-2017-47b52.firebaseio.com",
+      projectId: "push-notification-2017-47b52",
+      storageBucket: "push-notification-2017-47b52.appspot.com",
+      messagingSenderId: "942397041540"
+    };
+    firebase.initializeApp(config);
+  </script>
+
   <!-- Page Header -->
   <apex:sectionHeader title="Contact Edit" subtitle="New SFDX Demo Member" />
   <apex:image value="http://bit.ly/17iLknp" styleClass="logo" />
