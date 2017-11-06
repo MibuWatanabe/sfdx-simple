@@ -1,5 +1,6 @@
 {
-  "country": "US",
+  "country": "JP",
+  "language": "japanese",
   "edition": "Developer",
   "orgPreferences": {
     "enabled": [
@@ -7,6 +8,11 @@
     ],
     "disabled": []
   },
-  "orgName": "Your Company",
-  "adminEmail": "yourname@example.com"
+  "features": [
+    "API",
+    "CustomApps",
+    "ForceComPlatform"
+  ],
+  "orgName": "devhubtrial1",
+  "adminEmail": "mibu.a.watanabe+devhubtrial@gmail.com"
 }
